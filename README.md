@@ -2,7 +2,7 @@
 
 This is a Portfolio Website
 
-**The Live Preview of the site: ** http://chanakyha-coder.xyz
+*The Live Preview of the site:*  http://chanakyha-coder.xyz
 
 
 
