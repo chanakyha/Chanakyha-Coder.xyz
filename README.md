@@ -2,9 +2,7 @@
 
 This is a Portfolio Website
 
-*The Live Preview of the site:*  https://chanakyha-coder.xyz
-
-
+_The Live Preview of the site:_ https://chanakyha-coder.xyz
 
 ## Languages Used
 
@@ -12,5 +10,3 @@ This is a Portfolio Website
 - CSS
 - JavaScript
 - Bootstrap
-
-<iframe src="https://chanakyha-coder.xyz"></frame>
