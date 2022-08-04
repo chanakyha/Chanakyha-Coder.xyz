@@ -1111,4 +1111,5 @@ section {
   transform: scale(1.05);
   transition-timing-function: ease-out;
   transition-duration: 0.4s;
+  color: #000;
 }
