@@ -2,8 +2,9 @@ import mediumPosts from "../data/medium-post.mjs";
 
 const docRef = document.querySelector("#medium-post-container");
 
-mediumPosts?.map(({ redirectUrl, imageUrl, title }) => {
-  docRef.innerHTML += `
+window.onload = () =>
+  mediumPosts?.map(({ redirectUrl, imageUrl, title }) => {
+    docRef.innerHTML += `
     <a target="_blank"
     href="${redirectUrl}"
     class="card blogCard">
@@ -14,4 +15,4 @@ mediumPosts?.map(({ redirectUrl, imageUrl, title }) => {
     </div>
   </a>
     `;
-});
+  });
