@@ -1,5 +1,11 @@
 const data = [
   {
+    title: "15 VsCode Extensions every Web Developer must have in 2022",
+    imageUrl: "./assets/img/mediumThumnail/Medium-4.png",
+    redirectUrl:
+      "https://medium.com/@vetrichanakyha2003/15-vscode-extensions-every-web-developer-must-have-in-2022-e25308406da",
+  },
+  {
     title: "Google Authentication using Firebase",
     imageUrl: "./assets/img/mediumThumnail/Medium-3.png",
     redirectUrl:

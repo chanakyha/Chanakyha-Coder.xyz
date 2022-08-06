@@ -1097,8 +1097,8 @@ section {
 }
 
 .blogCard {
-  width: 30rem;
-  margin: 0.5rem 4rem;
+  width: 18rem;
+  margin: .5rem;
   cursor: pointer;
   text-decoration: none;
   color: #000;
@@ -1109,7 +1109,7 @@ section {
 
 .blogCard:hover {
   transform: scale(1.05);
-  transition-timing-function: ease-out;
+  transition-timing-function: ease-in-out;
   transition-duration: 0.4s;
   color: #000;
 }

@@ -10,7 +10,7 @@ window.onload = () =>
     class="card blogCard">
 
     <img src="${imageUrl}" class="card-img-top" alt="...">
-    <div class="card-body">
+    <div class="card-body" style="padding:.4rem">
       <p class="card-text">${title}</p>
     </div>
   </a>
