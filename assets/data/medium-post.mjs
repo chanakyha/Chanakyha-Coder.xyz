@@ -1,5 +1,11 @@
 const data = [
   {
+    title: "4 Ways to Style your React Components",
+    imageUrl: "./assets/img/mediumThumnail/Medium-5.png",
+    redirectUrl:
+      "https://medium.com/@vetrichanakyha2003/4-ways-to-style-your-react-components-ddc11d23a88b",
+  },
+  {
     title: "15 VsCode Extensions every Web Developer must have in 2022",
     imageUrl: "./assets/img/mediumThumnail/Medium-4.png",
     redirectUrl:
