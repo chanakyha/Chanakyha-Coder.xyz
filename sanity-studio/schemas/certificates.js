@@ -1,6 +1,6 @@
 export default {
-  name: "blogs",
-  title: "Blogs",
+  name: "certificates",
+  title: "Certificates",
   type: "document",
   fields: [
     {
@@ -14,20 +14,20 @@ export default {
       type: "string",
     },
     {
-      name: "thumbnail",
-      title: "Thumbnail",
-      type: "image",
+      name: "subtitle",
+      title: "Subtitle",
+      type: "string",
     },
     {
-      name: "redirect_url",
-      title: "Redirect URL",
-      type: "url",
+      name: "certificate_image",
+      title: "Certificate Image",
+      type: "image",
     },
   ],
   preview: {
     select: {
       title: "title",
-      media: "thumbnail",
+      media: "certificate_image",
     },
   },
 };
