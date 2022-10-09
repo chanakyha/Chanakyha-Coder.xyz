@@ -47,8 +47,9 @@ export default {
     {
       name: "social_lins",
       title: "Social Media Links",
-      collapsible: true,
-      collapsed: true,
+      options: {
+        collapsible: true,
+      },
       type: "document",
       fields: [
         {
@@ -80,6 +81,36 @@ export default {
           name: "email",
           title: "Email",
           type: "string",
+        },
+      ],
+    },
+    {
+      name: "counts",
+      title: "Counts",
+      type: "object",
+      options: {
+        collapsible: true,
+      },
+      fields: [
+        {
+          name: "projects",
+          title: "Projects",
+          type: "number",
+        },
+        {
+          name: "hackathons",
+          title: "Hackathons",
+          type: "number",
+        },
+        {
+          name: "hours_of_work",
+          title: "Hours of Work/day",
+          type: "number",
+        },
+        {
+          name: "certificates",
+          title: "Certificates Earned",
+          type: "number",
         },
       ],
     },
