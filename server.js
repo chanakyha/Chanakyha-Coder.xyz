@@ -25,7 +25,7 @@ function sanityImgURL(source) {
 }
 
 app.post("/blogs", async (req, res) => {
-  const groq = `*[_type=="blogs"] {title, thumbnail,redirect_url}`;
+  const groq = `*[_type=="blogs"] {title, thumbnail,redirect_url,id}|order(id desc)`;
 
   const data = await client.fetch(groq);
 
@@ -38,7 +38,7 @@ app.post("/blogs", async (req, res) => {
 });
 
 app.post("/certificates", async (req, res) => {
-  const groq = `*[_type=="certificates"] {title, certificate_image,subtitle}`;
+  const groq = `*[_type=="certificates"] {title, certificate_image,subtitle,id}|order(id desc)`;
 
   const data = await client.fetch(groq);
 

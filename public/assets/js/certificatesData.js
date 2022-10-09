@@ -1,11 +1,12 @@
 import "https://code.jquery.com/jquery-3.6.1.min.js";
+import "../vendor/swiper/swiper-bundle.min.js";
 
 const certificates = await (
   await fetch("/certificates", { method: "POST" })
 ).json();
 
-$(() => {
-  let html = "";
+$(document).ready(() => {
+  let html = ``;
   certificates?.map(({ certificate_image, title, subtitle }) => {
     html += `
         <div class="swiper-slide">
@@ -17,7 +18,5 @@ $(() => {
       </div>
         `;
   });
-
-  console.log(html);
   $("#certificates-container").html(html);
 });
