@@ -4,14 +4,20 @@ export default {
   type: "document",
   fields: [
     {
-      name: "title",
-      title: "Title",
+      name: "name",
+      title: "Name",
       type: "string",
+    },
+    {
+      name: "percentage",
+      title: "Percentage",
+      type: "number",
+      validation: (Rule) => Rule.min(0).max(100),
     },
   ],
   preview: {
     select: {
-      title: "title",
+      title: "name",
     },
   },
 };
