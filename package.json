@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@sanity/client": "^3.4.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2"
   },
