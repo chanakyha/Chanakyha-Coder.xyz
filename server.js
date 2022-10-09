@@ -36,3 +36,16 @@ app.post("/blogs", async (req, res) => {
     }))
   );
 });
+
+app.post("/certificates", async (req, res) => {
+  const groq = `*[_type=="certificates"] {title, certificate_image,subtitle}`;
+
+  const data = await client.fetch(groq);
+
+  res.status(200).json(
+    data.map((certificate) => ({
+      ...certificate,
+      certificate_image: sanityImgURL(certificate.certificate_image).url(),
+    }))
+  );
+});
